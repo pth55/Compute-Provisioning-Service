@@ -1,0 +1,15 @@
+# Local database, write-ahead log, and process logs
+/cps.db
+/cps.db-shm
+/cps.db-wal
+/cps.log
+
+# Downloaded base images are large binary artifacts; keep them out of Git.
+/images/*.qcow2
+/images/*.raw
+/images/*.iso
+!/images/.gitkeep
+
+# Per-instance disks, cloud-init media, sockets, PID files, and logs.
+/instances/*
+!/instances/.gitkeep
