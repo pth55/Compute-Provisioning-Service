@@ -676,4 +676,4 @@ Organizations consume and operate infrastructure at different abstraction layers
 
 ## License
 
-Add the license that matches the repository's intended distribution before publishing or accepting external contributions.
+...
